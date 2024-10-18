@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Portifólio: João Vitor Raenke dos Santos</title>
+</head>
+
+<body>
+    <header>
+        <h1>João Vitor Raenke dos Santos</h1>
+        <ul class="menu-links">
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#formacoes">Formações</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a class="emailli" href="mailto:joaors987654321@gmail.com?subject=Entre%20em%20contato%20comigo!&body=Qual%20seria%20o%20assunto?"><b>joaors987654321@gmail.com</b></a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="sobre" class="sobre-mim">
+            <h2 class="sobre-mim__h2">Sobre mim</h2>
+            <p class="sobre-mim__p">Eu me chamo João Vitor tenho 18 anos atualmente estou cursando informatica no
+                Instituto Fedaral de Venâncio Aires, sou de Santa Cruz do Sul sou amante do front end mas tenho um pé no
+                backend, e me esfoço para me tornar um desenvolvedor full stack. Tenho alguns hobbies como tocar guitarra e lutar Judô.</p>
+        </section>
+        <section id="skills" class="skills">
+            <h2 class="Skills__h2">Skills</h2>
+            <div class="skilss__items">
+                <div id="skill1" class="skills__item">
+                    <img src="images/Html 5.png" alt="HTML">
+                    <h3>HTML</h3>
+                </div>
+                <div id="skill2" class="skills__item">
+                    <img src="images/CSS3.png" alt="CSS">
+                    <h3>CSS</h3>
+                </div>
+                <div id="skill3" class="skills__item">
+                    <img src="images/JavaScript.png" alt="JAVASCRIPT">
+                    <h3>JavaScript</h3>
+                </div>
+                <div id="skill4" class="skills__item">
+                    <img src="images/PHP.png" alt="PHP">
+                    <h3>PHP</h3>
+                </div>
+                <div id="skill5" class="skills__item">
+                    <img src="images/Database.png" alt="MYSQUL">
+                    <h3>MySQL</h3>
+                </div>
+                <div id="skill6" class="skills__item">
+                    <img src="images/Group 6.png" alt="JAVA">
+                    <h3>Java</h3>
+                </div>
+                <div id="skill7" class="skills__item">
+                    <img src="images/Group 3.png" alt="NODE">
+                    <h3>Node.js</h3>
+                </div>
+                <div id="skill8" class="skills__item">
+                    <img src="images/Python.png" alt="PYHTON">
+                    <h3>Python</h3>
+                </div>
+            </div>
+        </section>
+        <section id="formacoes" class="formacoes">
+            <h1>Formações</h1>
+            <div id="formacao1" class="formacao1">
+                <h2 id="form1" class="formacao1__h2">Instituto Federal VA</h2>
+                <div class="formacao__div1">
+                    <img id="te" src="images/IFSUL.png" alt="IFSUL - Instito Federal campus Venancio Aires"
+                        class="formacao1__img">
+                    <p class="formacaos__p">Estudo no Instituto Fedaral de Venâncio aires, onde estou cursando técnico em informática. Ao longo desses três anos, tive muito contato com desenvolvimento, principal na área de back-end.</p>
+                </div>
+            </div>
+            <div id="formacao2" class="formacao2">
+                <h2 id="form2" class="formacao2__h2">Oracle ONE</h2>
+                <div class="formacao__div2">
+                    <img src="images/ORACLE.png" alt="alura ONE oracle" class="formacao2__img">
+                    <p class="formacaos__p">Oracle One é uma formação que estou cursando, onde sigo a trilha de front-end. Ja fiz vários projetos para o ONE e dediquei muitas horas para os estudos e formações.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projetos" class="projetos">
+            <h1>Projetos</h1>
+            <div class="projetos__div">
+                <h2 class="projetos__h2">Recipins - Descubra receitas!</h2>
+                <h3>HTML+CSS+JS+NODE.JS+MYSQL</h3>
+                <p class="projetos__p">Semelhante ao Pinterest é um site de scorll infinito onde sempre te devolve novas receitas</p>
+
+                <div class="projetos__galeria">
+                    <img id="recipins" src="images/recipins.png" alt="Site do recipins" class="projetos__img-antes">
+                    <button class="projetos__galeria__botao-left" type="button" onclick="galeria1.anterior()"><img src="images/seta.png" alt=""></button>
+                    <img id="recipins2" src="images/recipins2.png" alt="Site do recipins" class="projetos__img">
+                    <button class="projetos__galeria__botao-right" type="button" onclick="galeria1.proximo()""><img src="images/seta.png" alt=""></button>
+                    <img id="recipins3" src="images/recipins3.png" alt="Site do recipins" class="projetos__img-depois">
+                </div>
+                
+            </div>
+            <div id="aqui" class="projetos__div">
+                <h2 class="projetos__h2">Manipulador de banco de dados com interface</h2>
+                <h3>HTML+CSS+PHP+MYSQL</h3>
+                <p class="projetos__p">Um site para a manipulação CRUD usando PHP e MySql consulte os dados, altere uma informacao, exclua um registro e mais funcoes tudo diretamente de um site</p>
+                
+                <div class="projetos__galeria">
+                    <img id="PHPMysqli" src="images/PHPMysqli.png" alt="Site do recipins" class="projetos__img-antes">
+                    <button class="projetos__galeria__botao-left" type="button" onclick="galeria2.anterior()"><img src="images/seta.png" alt=""></button>
+                    <div id="caralho" class="placeholder"><p></p></div>
+                    <img id="PHPMysqli2" src="images/PHPMysqli2.png" alt="Site do recipins" class="projetos__img">
+                    <button class="projetos__galeria__botao-right" type="button" onclick="galeria2.proximo()"><img src="images/seta.png" alt=""></button>
+                    <img id="PHPMysqli3" src="images/PHPMysqli3.png" alt="Site do recipins" class="projetos__img-depois">
+                </div>
+            </div>
+            <div class="projetos__div">
+                <h2 class="projetos__h2">Decocidificador Oracle ONE</h2>
+                <h3>HTML+CSS+JS</h3>
+                <p class="projetos__p">Um decodificador simples que criptografa e descriptografa um determinado texto de sua escolha</p>
+                <div class="projetos__galeria">
+                    <img id="decodificador" src="images/decodificador.png" alt="Site do recipins" class="projetos__img-antes">
+                    <button class="projetos__galeria__botao-left" type="button" onclick="galeria3.anterior()"><img src="images/seta.png" alt=""></button>
+                    <img id="decodificador2" src="images/decodificador2.png" alt="Site do recipins" class="projetos__img">
+                    <button class="projetos__galeria__botao-right" type="button" onclick="galeria3.proximo()"><img src="images/seta.png" alt=""></button>
+                    <img id="decodificador3" src="images/decodificador3.png" alt="Site do recipins" class="projetos__img-depois">
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="contato">
+            <h1 class="contato__h1">Contato</h1>
+            <div class="contato__div">
+                <h2 class="contato__nome">João Vitor Raenke dos Santos</h2>
+                <a href="mailto:joaors987654321@gmail.com?subject=Entre%20em%20contato%20comigo!&body=Qual%20seria%20o%20assunto?"><h2 class="contato__email">joaors987654321@gmail.com</h2></a>
+                <a href="https://wa.me/5551998384327"><h2 class="contato__fone">(51) 9 9838-4327</h2></a>
+                <div class="contato__div__redes">
+                    <a class="contato__redes" href="https://www.linkedin.com/in/joaors/"><img
+                            src="https://img.icons8.com/?size=512&id=13930&format=png" alt="Linkedin"></a>
+                    <a class="contato__redes" href="https://github.com/JOAORSS"><img
+                            src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/github-512.png"
+                            alt="github"></a>
+                    <a class="contato__redes" href="https://www.instagram.com/joao_rsant/"><img
+                            src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="instagram"></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <h2>2024 - setembro</h2>
+    </footer>
+
+</body>
+<script type="module" src="app.js"></script>
+</html>
