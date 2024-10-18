@@ -5,7 +5,7 @@ export class galeria {
             this.img3 = img3;
             this.n = n;
     }
-
+// commit
     
     proximo(){
 
