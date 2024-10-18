@@ -66,7 +66,7 @@ function scrollONE() {
 document.addEventListener("DOMContentLoaded", loadSkills)
 
 let i = 1;
-comitt
+// comitt
 
 function loadSkills(){
 
